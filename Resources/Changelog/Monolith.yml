@@ -14770,3 +14770,16 @@ Entries:
   id: 1638
   time: '2025-12-08T20:59:40.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2769
+- author: UnicornOnLSD
+  changes:
+    - type: Add
+      message: >-
+        The DIS Pluto MK. II has pierced it's way on the hull market. A
+        replacement of the honorable Pluto. 
+    - type: Remove
+      message: >-
+        DIS Pluto hulls are no longer available on the hull market. We will miss
+        you, space cowboy.
+  id: 1639
+  time: '2025-12-08T21:04:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2763
