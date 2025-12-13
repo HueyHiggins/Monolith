@@ -22,6 +22,8 @@
       tags:
         - Cartridge
         - Trash
+      components: # Frontier: added GoblinMade
+        - GoblinMade # Frontier: added GoblinMade        
   - type: UseDelay
     delay: 0.5
   - type: Tag
@@ -52,6 +54,7 @@
   - type: ItemToggleExamine
     on: item-toggle-examine-magnet-on
     off: item-toggle-examine-magnet-off
+  - type: GoblinPreciousTrashBag # Frontier    
 
 - type: entity
   name: trash bag

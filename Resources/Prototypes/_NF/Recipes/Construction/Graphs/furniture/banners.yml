@@ -125,17 +125,7 @@
               doAfter: 1
             - material: Cloth
               amount: 2
-              doAfter: 1
-        - to: BannerGoblin01
-          completed:
-            - !type:SnapToGrid { }
-          steps:
-            - material: Steel
-              amount: 2
-              doAfter: 1
-            - material: Cloth
-              amount: 2
-              doAfter: 1
+              doAfter: 1       
 
     - node: BannerNanotrasenNode
       entity: BannerNanotrasen
@@ -317,17 +307,3 @@
             - tool: Screwing
               doAfter: 1
 
-    - node: BannerGoblin01
-      entity: BannerGoblin01
-      edges:
-        - to: start
-          completed:
-            - !type:SpawnPrototype
-              prototype: SheetSteel1
-              amount: 2
-            - !type:SpawnPrototype
-              prototype: MaterialCloth1
-              amount: 2
-          steps:
-            - tool: Screwing
-              doAfter: 1
