@@ -216,18 +216,3 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-
-# vehicles
-#region dumpster-car
-- type: construction
-  id: NFGoblinMadeVehicleDumpster
-  entityWhitelist: *goblinWhitelist
-  graph: NFGoblinMadeVehicleDumpster
-  startNode: start
-  targetNode: NFGoblinMadeVehicleDumpster
-  category: construction-category-goblin
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
