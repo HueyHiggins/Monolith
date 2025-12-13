@@ -423,14 +423,14 @@
     - state: welder_flame
       visible: false
       shader: unshaded
-      map: ["enum.ToggleableVisuals.Layer"]
+      map: ["enum.ToggleVisuals.Layer"]
     - sprite: _NF/Objects/Tools/goblin_tools/overlay_sparks.rsi
       state: overlay-icon
       shader: unshaded
   - type: GenericVisualizer
     visuals:
-      enum.ToggleableVisuals.Enabled:
-        enum.ToggleableVisuals.Layer:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
           true: { visible: true }
           false: { visible: false }
   - type: Item
@@ -462,7 +462,6 @@
           can9: ""
           can10: ""
 # endregion
-
 
 - type: entity
   id: NFGoblinMadeWelderEmpty
